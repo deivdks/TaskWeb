@@ -2,6 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <link href="../CSS/StyleSheet1.css" rel="stylesheet" />
+
     <div class="row">
 
         <div class="col-md-3">
@@ -10,6 +11,7 @@
         </div>
 
     </div>
+
     <div class="row">
         <div class="col-md-2">
             <label for="lblTitulo" class="form-label">Título</label>
@@ -21,11 +23,28 @@
             <input type="number" class="form-control" id="txtHoras">
         </div>
     </div>
+
     <div class="row">
-       <div class="col-md-6">
+        <div class="col-md-12" aria-disabled="True">
             <label for="lblDescricao" class="form-label">Descrição</label>
-            <textarea class="form-control" id="txaDescricao" rows="5" cols="4"></textarea>
-       </div>
+            <textarea class="form-control" id="txaDescricao" rows="5"></textarea>
+            <div class="btn1">
+                <button type="button" class="btn btn-primary btn-sm">Adicionar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+        </table>
     </div>
 
 </asp:Content>

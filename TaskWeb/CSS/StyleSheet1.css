@@ -2,10 +2,19 @@
  .row {
   background: #f8f9fa;
   margin-top: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-radius: 10px;
+
 }
 
 .col-md-1 {
   border: solid 1px #6c757d;
   padding: 10px;
+}
+
+.btn1{
+    float:right;
+    padding-top:20px;
 }
 
