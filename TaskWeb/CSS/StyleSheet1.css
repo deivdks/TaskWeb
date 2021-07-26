@@ -1,4 +1,10 @@
-﻿
+﻿.background-white{
+    background-color:white;
+    border-radius: 10px;
+}
+
+
+
  .row {
   background: #f8f9fa;
   margin-top: 20px;
